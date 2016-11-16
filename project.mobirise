@@ -1,0 +1,455 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "versionFirst": "3.8.3",
+    "uniqCompNum": 0,
+    "versionPublish": "3.8.3",
+    "name": "My Site apk",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#f3c649",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#ffffff",
+        "infoColor": "#ffffff",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false
+      }
+    },
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@/apk",
+    "favicon": "",
+    "noImageResize": ""
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f3c649!important"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            }
+          },
+          "_name": "menu",
+          "_anchor": "menu-0",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": "0.75",
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": false,
+            "showBrand": false,
+            "collapsed": false,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header1-3\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span>Contact us</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span>Find Us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "left",
+              "font-size": "9px",
+              "color": "#d14841"
+            },
+            ".mbr-section-lead": {
+              "text-align": "left",
+              "color": "#ffffff",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "30px"
+            }
+          },
+          "_anchor": "header1-3",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "assets/images/soccer-game-on-quest-field-ultra-hd-2000x1125-7.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "GREATEST<br>FOOTBALL<br>LEGENDS",
+          "text": "<span style=\"font-size: 1.125rem; line-height: 1.5;\"><br></span><br><span style=\"font-size: 1.125rem; line-height: 1.5;\"><br></span><br><span style=\"font-size: 1.125rem; line-height: 1.5;\"><br></span><br><span style=\"font-size: 1.125rem; line-height: 1.5;\"><br></span><br><span style=\"font-size: 1.125rem; line-height: 1.5;\">''Playing football with your feet is one thing, but playing with your heart is another...''</span><br>",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"index.html#header1-9\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-play mbr-iconfont mbr-iconfont-btn\"></span>GO</a> "
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "left"
+            },
+            ".mbr-section-title SPAN": {
+              "font-size": "10px"
+            },
+            ".mbr-section-lead": {
+              "text-align": "left",
+              "color": "#f3c649"
+            }
+          },
+          "_anchor": "header1-9",
+          "_params": {
+            "parallax": false,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "assets/images/david-beckham-wallpaper-hd-download-mobile-iphone-6s-galaxy19-2000x1125-52.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "<br><br><br><br><br><br><br><span style=\"font-size: 3.125rem; line-height: 1.1;\">DAVID BECKHAM</span><br>",
+          "text": "<span style=\"font-size: 1.125rem; line-height: 1.5;\">David Robert Joseph Beckham, OBE is an English former professional footballer. He played for Manchester United, Preston North End, Real Madrid, Milan, LA Galaxy, Paris Saint-Germain, and the England National Player.</span><br>Born: May 2, 1975 (age 41), Leytonstone, London, United Kingdom<br>Height: 6′ 0″<br>Full name: David Robert Joseph Beckham<br>Spouse: Victoria Beckham (m. 1999)<br>Children: Brooklyn Beckham, Romeo James Beckham, Harper Seven Beckham, Cruz David Beckham<br>Siblings: Joanne Louise Beckham, Lynne Georgina Beckham<br>",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary-outline btn-primary\" href=\"index.html#header1-a\" data-toolbar=\"-mbrBtnMove\">NEXT</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "left",
+              "color": "#00a885"
+            },
+            ".mbr-section-lead": {
+              "text-align": "left",
+              "color": "#3d8eb9"
+            },
+            ".mbr-section-title SPAN": {
+              "color": "#3d8eb9"
+            }
+          },
+          "_anchor": "header1-a",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "assets/images/886a6a1cc1f38bf366ae52e1bf50458b-2000x3198-19.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "<span style=\"font-size: 3.125rem; line-height: 1.1;\"><br></span><br><span style=\"font-size: 3.125rem; line-height: 1.1;\"><br></span><br><span style=\"font-size: 3.125rem; line-height: 1.1;\"><br></span><br><span style=\"font-size: 3.125rem; line-height: 1.1;\"><br></span><br><span style=\"font-size: 3.125rem; line-height: 1.1;\">RONALDO</span><br>",
+          "text": "Cristiano Ronaldo dos Santos Aveiro, ComM, GOIH is a Portuguese professional footballer who plays for Spanish club Real Madrid and the Portugal national team. He is a forward and serves as captain for Portugal.<br>Born: February 5, 1985 (age 31), Hospital Dr. Nélio Mendonça, Funchal, Portugal<br>Height: 6′ 1″<br>Weight: 176 lbs<br>Salary: 32 million EUR (2016)<br>Current teams: Real Madrid C.F. (#7 / Forward), Portugal national football team (#7 / Forward)<br>Parents: Maria Dolores dos Santos Aveiro, José Dinis Aveiro",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary\" href=\"index.html#header1-b\" data-toolbar=\"-mbrBtnMove\">NEXT</a> "
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "left"
+            },
+            ".mbr-section-lead": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "header1-b",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "assets/images/42f487f15d1ca93f98869b69012e8864-large-2000x1333-68.png",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "<br><br><br><br><br><br><br><span style=\"font-size: 3.125rem; line-height: 1.1;\">MESSI</span><br>",
+          "text": "Lionel Andrés \"Leo\" Messi is an Argentine professional footballer who plays as a forward for Spanish club FC Barcelona and the Argentina national team.<br>Born: June 24, 1987 (age 29), Rosario, Argentina<br>Height: 5′ 7″<br>Partner: Antonella Roccuzzo (2008–)<br>Salary: 40 million EUR (2016)<br>Current teams: FC Barcelona (#10 / Forward), Argentina national football team (Forward)<br>Children: Thiago Messi, Mateo Messi",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"index.html#header1-c\" data-toolbar=\"-mbrBtnMove\">NEXT</a> "
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "left",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "font-size": "12px"
+            },
+            ".mbr-section-lead": {
+              "text-align": "left",
+              "color": "#fac51c"
+            },
+            ".mbr-section-title SPAN": {
+              "color": "#fac51c"
+            }
+          },
+          "_anchor": "header1-c",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "assets/images/soccer-ronaldinho-00320424-2000x1500-88.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "<span style=\"font-size: 3.125rem; line-height: 1.1;\"><br></span><br><span style=\"font-size: 3.125rem; line-height: 1.1;\">RONALDINHO</span><br>",
+          "text": "<br>Ronaldo de Assis Moreira, commonly known as Ronaldinho or Ronaldinho Gaúcho, is a Brazilian professional footballer and current club ambassador for Spanish club FC Barcelona after signing for them in September 2016.&nbsp;<br>Born: March 21, 1980 (age 36), Porto Alegre, Rio Grande do Sul, Brazil<br>Height: 5′ 11″<br>Full name: Ronaldo de Assis Moreira<br>Salary: 9.6 million BRL (2013)<br>Number: 80 (A.C. Milan / Midfielder), More<br>Awards: Ballon d'Or, FIFA World Player of the Year, Golden Foot.<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"index.html#header1-d\" data-toolbar=\"-mbrBtnMove\">NEXT<br></a> "
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "left"
+            },
+            ".mbr-section-lead": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "header1-d",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "assets/images/54173-1-2000x2580-88.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "<br><br><br><br><br>GERRARD",
+          "text": "Steven George Gerrard, MBE is an English professional footballer who plays for Major League Soccer club LA Galaxy as a central midfielder.&nbsp;<br>Born: May 30, 1980 (age 36), Whiston, United Kingdom<br>Height: 6′ 0″<br>Spouse: Alex Curran (m. 2007)<br>Salary: 7.28 million GBP (2012)<br>Current team: LA Galaxy (#8 / Midfielder)",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"index.html#header1-e\" data-toolbar=\"-mbrBtnMove\">NEXT</a> "
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "left",
+              "color": "#28324e"
+            },
+            ".mbr-section-lead": {
+              "text-align": "left",
+              "color": "#28324e"
+            }
+          },
+          "_anchor": "header1-e",
+          "_params": {
+            "parallax": false,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "assets/images/lampard-2000x1333-57.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "<br><br><br><br>LAMPARD",
+          "text": "Frank James Lampard OBE is an English professional footballer who plays as a midfielder for New York City FC in Major League Soccer.<br>Born: June 20, 1978 (age 38), Romford, United Kingdom<br>Height: 6′ 0″<br>Spouse: Christine Bleakley (m. 2015)<br>Salary: 7.84 million GBP (2012)<br>Current team: New York City FC (#8 / Midfielder)",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black\" href=\"index.html#header1-f\" data-toolbar=\"-mbrBtnMove\">NEXT</a> "
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "left",
+              "color": "#f3c649"
+            },
+            ".mbr-section-lead": {
+              "text-align": "left",
+              "color": "#f3c649"
+            }
+          },
+          "_anchor": "header1-f",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "assets/images/91059c301362747bbcc02a4d3a39c3b3-2000x3000-83.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "<br><br><br><br><br><br><br><br><br><br>PIRLO",
+          "text": "Andrea Pirlo, Ufficiale OMRI is an Italian professional footballer who plays for American club New York City FC and the Italy national team.<br>Born: May 19, 1979 (age 37), Flero, Italy<br>Height: 5′ 10″<br>Weight: 150 lbs<br>Spouse: Deborah Roversi (m. 2001–2014)<br>Salary: 3.5 million EUR (2014)<br>Current team: New York City FC (#21 / Midfielder)",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"#top\" data-toolbar=\"-mbrBtnMove\">NEXT</a> "
+        }
+      ]
+    }
+  }
+}
